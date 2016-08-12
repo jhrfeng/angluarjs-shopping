@@ -1,0 +1,70 @@
+<ion-view>
+    <ion-content scroll="false" style="background:#F0F3F8">
+		<div id="main">
+			<div class="list list-span">
+			    <p style="padding-top: 6px;">
+			    	<span>1.输入手机号&nbsp;</span>
+			    	<i class="ion-ios-arrow-right ion-i"></i>
+					<span style="color: #387ef5;">2.设置密码&nbsp;</span>
+					<i class="ion-ios-arrow-right ion-i" ></i>
+					<span>3.输入个人信息</span>
+			    </p>
+			</div>
+
+			<div id="step2">
+				<div class="list">
+				  <p class="item item-input">
+				    <input ng-model="step2.password" type={{pwdshow}} placeholder="请输入您的密码" ng-click="vc.clears('2');">
+			  	    <i class="" style="background-color:#d4a190;color:#FFFFFF;font-size:10px;">{{err2}}</i>
+				    <span ng-click="vc.switchpwd();" style="margin-right: 18px;text-align: left;"><i class="ion-eye" style="font-size:23px;"></i></span>
+				  </p>
+				</div>
+
+				<div class="list list-inset">
+					<button class="button button-positive" ng-click="vc.step3();">
+				  		提交密码
+					</button>
+				</div>
+			</div>
+	</div>
+		  
+    </ion-content>
+</ion-view>
+
+<style type="text/css">
+	#main{
+		margin: 0;
+	}
+
+	.list-span{
+		background: #FFFFFF;
+		height: 36px;
+		text-align: center;
+		font: bold 12px/20px "SimSun","宋体","Arial Narrow",HELVETICA;
+		color: #333333;
+	}
+
+	.ion-i {
+		padding-left: 5px;
+		padding-right: 5px; 
+		font-size: 16px;
+	}
+
+	button {
+		width: 100%;
+		
+	}
+
+	.last-i {
+		text-align: center;
+		color: #fafafa;
+		font-weight:bold;
+		font-size: 15px;
+	}
+
+	#main > p > span {
+		color: #4285fc;
+		/*color: #387ef5;*/
+
+	}
+</style>

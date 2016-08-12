@@ -1,0 +1,57 @@
+[{
+    "modular": "1",
+    "modularZi": "",
+    "funName": "我家资讯",
+    "funMenuNum": "8",
+    "picUrl": "img/home/icon_msg.png",
+    "updateTime": "2016-08-05T11:38:56.000+08:00"
+}, {
+    "modular": "1",
+    "modularZi": "4",
+    "funName": "保单查询",
+    "funMenuNum": "1",
+    "picUrl": "img/home/icon_policy.png",
+    "updateTime": "2016-08-05T11:33:06.000+08:00"
+}, {
+    "modular": "1",
+    "modularZi": "",
+    "funName": "我家健康",
+    "funMenuNum": "7",
+    "picUrl": "img/home/icon_health.png",
+    "updateTime": "2016-08-05T11:38:30.000+08:00"
+}, {
+    "modular": "1",
+    "modularZi": "",
+    "funName": "我家产品",
+    "funMenuNum": "5",
+    "picUrl": "img/home/icon_product.png",
+    "updateTime": "2016-08-05T11:37:09.000+08:00"
+}, {
+    "modular": "1",
+    "modularZi": "",
+    "funName": "我家生活",
+    "funMenuNum": "6",
+    "picUrl": "img/home/icon_life.png",
+    "updateTime": "2016-08-05T11:37:54.000+08:00"
+}, {
+    "modular": "1",
+    "modularZi": "",
+    "funName": "保单变更",
+    "funMenuNum": "2",
+    "picUrl": "img/home/icon_question.png",
+    "updateTime": "2016-08-05T11:34:09.000+08:00"
+}, {
+    "modular": "1",
+    "modularZi": "",
+    "funName": "在线报案",
+    "funMenuNum": "3",
+    "picUrl": "img/home/icon_mobile.png",
+    "updateTime": "2016-08-05T11:34:54.000+08:00"
+}, {
+    "modular": "1",
+    "modularZi": "",
+    "funName": "我家理财",
+    "funMenuNum": "4",
+    "picUrl": "img/home/icon_financing.png",
+    "updateTime": "2016-08-05T11:35:24.000+08:00"
+}]

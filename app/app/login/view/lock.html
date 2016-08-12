@@ -1,0 +1,32 @@
+<ion-view class="lock-view">
+    <div class="bar bar-header bar-primary" ng-if="vo.hasHeader" align-title="center">
+        <button ng-click="go(-1)" class="button button-icon">
+            <img class="header-icon" src="img/back_trans.png">
+        </button>
+        <h1 class="title" style="font-family:'黑体';">手势解锁</h1>
+    </div>
+    <ion-content class="has-header" id="lock-content" scroll="true">
+    </ion-content>
+</ion-view>
+<style type="text/css">
+.lock-view {
+    background-color: rgb(244,244,244) !important;
+}
+
+#lock-content {
+    text-align: center;
+    /*background-color: #305066;*/
+    background-color: rgb(244,244,244);
+}
+
+.title {
+    /*color: #22C3AA;*/
+    color: rgb(251,128,64);
+}
+
+.notice {
+	height: 1.2em;
+	margin: 0;
+	color: #ff4444;
+}
+</style>

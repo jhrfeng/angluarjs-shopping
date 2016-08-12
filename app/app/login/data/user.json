@@ -1,0 +1,33 @@
+{
+	"head_img":"img/home/slide1.png",
+	"account":"13752****59",
+	"authentic":true,
+	"score":120,
+	"picUploaded":true,
+
+	"name":"李米",
+	"cardType":"身份证",
+	"cardNo":"210423********5549",
+	"sex":1,
+	"birthday":"1983-01-01",
+	
+	"mobile":"158****4032",
+	"zoneNo":"",
+	"telephone":"",
+	"email":"",
+	"province":"",
+	"city":"",
+	"district":"",
+	"addr":"",
+
+	"passport":{},
+	"orders":{},
+	"reservation":{},
+	"invitation":{},
+	"person":{},
+	"real":{},
+	"favorite":{},
+	"scoreMarket":{},
+	"safe":{},
+	"about":{}
+}

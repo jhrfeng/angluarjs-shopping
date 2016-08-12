@@ -1,0 +1,57 @@
+<ion-view>
+    <ion-content scroll="false" style="background:#F0F3F8">
+		<div id="main">
+
+			<div class="list">
+			  <label class="item" ng-show="err"
+			  	style="text-align:center; height:36px; font-weight: bold;padding-top:3px;">
+			  		<span>找回登录密码</span>
+			  </label>
+			  <label class="item" ng-hide="err" 
+			  	style="text-align:center; height:36px; font-weight: bold;font-size:13px;
+			  	    padding-top:3px;background-color:#d4a190;color:#ffffff;">
+			  	    <i class="ion-android-alert"> &nbsp;两次密码输入不正确</i>
+			  </label>
+			  <label class="item item-input">
+			    <input ng-model="pwd.password" class="icon1-i" id="pwd" type="password" placeholder="输入新密码">
+			  </label>
+			  <br>
+			  <label class="item item-input">
+			    <input ng-model="pwd.npassword" class="icon1-i" type="password" placeholder="再次输入新密码">
+			  </label>
+			</div>
+
+			<div class="list list-inset">
+				<button class="button button-positive" ng-click="vc.updatePwd();">
+			  		提交密码
+				</button>
+			</div>
+	</div>
+		  
+    </ion-content>
+</ion-view>
+
+<style type="text/css">
+	#main{
+		margin: 0;
+	}
+
+	.ion-i {
+		padding-left: 5px;
+		padding-right: 5px; 
+		font-size: 16px;
+	}
+
+
+	.icon1-i {
+		text-align: left;
+		/*font: italic bold 24px arial;*/
+		font-weight:bold;
+	}
+
+	button {
+		width: 100%;
+		
+	}
+
+</style>

@@ -1,0 +1,113 @@
+<ion-view>
+    <ion-content scroll="false" style="background:#F0F3F8">
+        <div id="main" ng-show="false">
+            <div class="list list-span">
+                <p style="padding-top: 6px;">
+                    <span style="color: #387ef5;">1.输入手机号&nbsp;</span>
+                    <i class="ion-ios-arrow-right ion-i"></i>
+                    <span>2.设置密码&nbsp;</span>
+                    <i class="ion-ios-arrow-right ion-i" ></i>
+                    <span>3.输入个人信息</span>
+                </p>
+            </div>
+
+            <div class="list">
+              <label class="item item-input">
+                <input type="text" placeholder="请输入您的手机号">
+              </label>
+              <br>
+              <label class="item item-input">
+                <input type="text" placeholder="请输入您收到的验证码">
+                <span class="input-label" style="text-align: right;">56s后重发</span>
+              </label>
+            </div>
+
+            <div class="list list-inset">
+                <button class="button button-positive">
+                    下一步
+                </button>
+            </div>
+
+            <div class="list">
+              <label class="item item-input">
+                <input type="password" placeholder="请输入您的密码">
+                <span class="input-label" style="text-align: center;"><i class="ion-eye" style="font-size:23px;"></i></span>
+              </label>
+            </div>
+
+            <div class="list list-inset">
+                <button class="button button-positive">
+                    提交密码
+                </button>
+            </div>
+
+            <div class="list">
+              <label class="item item-input">
+                <input type="text" placeholder="请输入您的真实名字">
+              </label>
+              <br>
+              <label class="item item-input">
+                <input type="text" placeholder="请输入您的邮箱">
+              </label>
+               <br>
+              <label class="item item-input">
+                <input type="text" placeholder="课题组">
+              </label>
+               <br>
+              <label class="item item-input">
+                <input type="text" placeholder="学校">
+              </label>
+            </div>
+    
+            <div class="list list-inset">
+                <button class="button button-positive">
+                    提交资料
+                </button>
+            </div>
+            <div class="list last-i">
+                <span><i class="ion-ios-checkmark-outline"></i>&nbsp;记住账户</span>
+                 <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span> 
+                 <span>忘记密码？</span>
+            </div>
+    </div>
+          
+    </ion-content>
+</ion-view>
+
+<style type="text/css">
+    #main{
+        margin: 0;
+    }
+
+    .list-span{
+        background: #FFFFFF;
+        height: 36px;
+        text-align: center;
+        font: bold 12px/20px "SimSun","宋体","Arial Narrow",HELVETICA;
+        color: #333333;
+    }
+
+    .ion-i {
+        padding-left: 5px;
+        padding-right: 5px; 
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        
+    }
+
+    .last-i {
+        text-align: center;
+        color: #fafafa;
+        font-weight:bold;
+        font-size: 15px;
+    }
+
+    #main > p > span {
+        color: #4285fc;
+        /*color: #387ef5;*/
+
+    }
+</style>

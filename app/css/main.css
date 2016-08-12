@@ -1,0 +1,223 @@
+/*/*/* Empty. Add your own CSS if you like */
+*{
+    font-family: '黑体';
+}
+.color-primary{
+
+}
+.bg-primary{
+
+}
+.text-primary{
+    color:orange; 
+}
+.text-content{
+    color:#7A7A7A!important; 
+}
+.bg-content{
+    color:#888;
+    background:rgb(244,244,244);
+}
+.pull-left{
+    float:left;
+}
+.pull-right{
+    float:right;
+}
+.primary{
+    color:rgb(251,128,64)!important;
+}
+.primary-bg{
+    background:rgb(251,128,64)!important;
+}
+.bar.bar-primary{
+    color:white;
+    border:none;
+    background:rgb(251,128,64);
+}
+.bar.bar-primary *{
+    color:white!important;
+}
+/*.button.button-positive {
+    border-color: transparent;
+    background-color:rgb(251,128,64);
+    color: #fff;
+}*/
+a.primary{
+    color:rgb(251,128,64);
+    text-decoration:none;
+}
+.header-icon{
+    width:20px;
+    vertical-align:middle;
+}
+.header-button{
+    height:20px;
+    line-height:20px!important;
+}
+.content-row{
+    padding:10px 15px 0;
+    color:#888;
+}
+.input-search{
+    padding:0 10px!important;
+    width:100%;
+    height:36px!important;
+    border:1px solid #DDD!important;
+    border-radius:25px;
+}
+.input-search::-ms-input-placeholder{text-align: center;}
+.input-search::-webkit-input-placeholder{text-align: center;}
+.alias{
+    position:fixed!important;
+    margin:auto;
+    top:18%;
+    bottom:0;
+    left:auto;
+    right:0!important;
+    width:30px;
+    height:75%;
+    z-index:9999;
+    text-align:center;
+    overflow-y:scroll!important;
+}
+.alias li{
+    height:3.2%;
+}
+.item-alias{
+    color:#888;
+    padding:10px 15px 5px;
+}
+.toast{
+    position: fixed;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFF;
+    font-size: 300%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/*设置绿色*/
+ion-nav-bar.green ion-header-bar {
+    background: #66cc00 !important
+}
+ion-nav-bar.green ion-header-bar .ic-return {
+    background-image: url(../lib/ionic/img/icon-new/return-white.png)
+}
+ion-nav-bar.green ion-header-bar .title {
+    color: white !important
+}
+
+/*设置bar为红色*/
+ion-nav-bar.red ion-header-bar {
+    background: rgb(213, 1, 15) !important;
+}
+ion-nav-bar.red ion-header-bar .ic-return {
+    background-image: url(../lib/ionic/img/icon-new/return-white.png)
+}
+ion-nav-bar.red ion-header-bar .title {
+    color: white !important
+}
+
+/*设置蓝色*/
+ion-nav-bar.blue ion-header-bar {
+    background: rgb(66,175,199)!important
+}
+ion-nav-bar.blue ion-header-bar .ic-return {
+    background-image: url(../lib/ionic/img/icon-new/return-white.png)
+}
+ion-nav-bar.blue ion-header-bar .title {
+    color: white !important
+}
+
+/**设置成白色**/
+ion-nav-bar.white ion-header-bar {
+    background: white!important
+}
+ion-nav-bar.white ion-header-bar .ic-return {
+    background-image: url(../lib/ionic/img/icon-new/return.png)
+}
+ion-nav-bar.white ion-header-bar .title {
+    color: black !important
+}
+/** 开关滑动块 阴影**/
+.toggle .handle {
+    box-shadow: 0 2px 7px rgba(0,0,0,.35),0 1px 1px rgba(0,0,0,.15)!important;
+}
+
+
+
+/**页面切换动画**/
+.slide-in-right {
+   -webkit-transform: translateX(-100%);
+   transform: translateX(100%); 
+}
+.slide-in-right.ng-enter, .slide-in-right > .ng-enter {
+  -webkit-transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+   transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+}      
+.slide-in-right.ng-enter-active, .slide-in-right > .ng-enter-active {
+   -webkit-transform: translateX(0);
+   transform: translateX(0); 
+} 
+.slide-in-right.ng-leave, .slide-in-right > .ng-leave {
+  -webkit-transition: all ease-in-out 250ms;
+   transition: all ease-in-out 250ms; 
+}
+.slide-in-left {
+   -webkit-transform: translateX(-100%);
+   transform: translateX(100%); 
+}
+.slide-in-left.ng-enter, .slide-in-left > .ng-enter {
+  -webkit-transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+   transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
+}      
+.slide-in-left.ng-enter-active, .slide-in-left > .ng-enter-active {
+   -webkit-transform: translateX(0);
+   transform: translateX(0); 
+} 
+.slide-in-left.ng-leave, .slide-in-left > .ng-leave {
+  -webkit-transition: all ease-in-out 250ms;
+   transition: all ease-in-out 250ms; 
+}
+
+
+.city-select.popover .scroll-content {
+    margin: 0!important;
+}
+.city-select.popover {
+    width: 33%;
+    max-height: 80%;
+    border-radius: 0!important;
+}
+/*popover的箭头是否隐藏*/
+.platform-ios .popover-arrow{
+  /*display: none;*/
+}
+.city-select.popover .scroll-content .city-item {
+    display: block;
+    padding: 8px;
+    font-size: 14px;
+    color: #777;
+    background: #fff;
+}
+
+.bottom-grey {
+    border-bottom: solid 1px #EEE!important;
+}
+.center {
+    text-align: center;
+}
+.user .scroll-content .slider,.user .scroll-content .slider .scroll-view {
+  height: 100%
+}
+
+
+
+

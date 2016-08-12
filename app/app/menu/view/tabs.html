@@ -1,0 +1,33 @@
+<ion-nav-view></ion-nav-view>
+<div ng-show="!hideTab" class="bar bar-footer tabs-color-active-positive" style="padding:0;">
+    <div class="tabs tabs-light tabs-icon-top text-content">
+        <a ui-sref="kf.home.index" class="tab-item" style="border-left:none;" ng-class="{'primary':menu=='home'}">
+            <img ng-src="img/home/tab_home{{menu=='home'?'_selected':''}}.png"><br/>
+            首页
+        </a>
+        <a ui-sref="kf.serve.index" class="tab-item" ng-class="{'primary':menu=='serve'}">
+            <img ng-src="img/home/tab_serve{{menu=='serve'?'_selected':''}}.png"><br/>
+            服务
+        </a>
+        <a ui-sref="activity" class="tab-item" ng-class="{'primary':menu=='financing'}">
+            <img ng-src="img/home/tab_financing.png"><br/>
+            理财
+        </a>
+        <a ui-sref="schedule.person" class="tab-item" ng-class="{'primary':menu=='friend'}">
+            <img ng-src="img/home/tab_friend.png"><br/>
+            朋友
+        </a>
+        <a ui-sref="kf.mine.index" class="tab-item" ng-class="{'primary':menu=='mine'}">
+            <img ng-src="img/home/tab_mine{{menu=='mine'?'_selected':''}}.png"><br/>
+            我
+        </a>
+    </div>
+</div>
+<style type="text/css">
+    .tabs a img{
+        margin-top:4px;width:24px;height:24px;
+    }
+    .tab-item{
+        color:rgb(97,97,97);
+    }
+</style>
